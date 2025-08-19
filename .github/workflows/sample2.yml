@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Simple Javascript action
         id: Hello
-        uses: actions/github-script@v6
+        uses: actions/hello-world-javascript-action@v1
         with:
           who-to-greet: "Tavant Blr"
 
