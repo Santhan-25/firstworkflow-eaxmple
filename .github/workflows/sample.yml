@@ -23,7 +23,12 @@ jobs:
 
 
   run-windows-commands:
-    run: pwd
-    shell: bash
-    name: string
-    run: echo "Hi windows"
+    runs-on: windows-latest
+    steps:
+      - name : Director powershell
+        run : Get-Location
+
+      - name : Directort Bash
+        shell: bash
+        name: string
+        run: echo "Hi windows"
