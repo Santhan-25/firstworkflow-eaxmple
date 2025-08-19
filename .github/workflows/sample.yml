@@ -28,6 +28,7 @@ jobs:
         run: Get-Location
 
       - name: Directort Bash
+        run: pwd
         shell: bash
 
       - name: string
