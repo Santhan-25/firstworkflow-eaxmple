@@ -13,3 +13,17 @@ jobs:
         run: node -v
           npm -v
           echo "This is muli line"
+      
+      - name: python command
+        run: |
+          import platform
+          print("Python Version:", platform.python_version())
+          print("Platform processor:", platform.processor())
+        shell: python
+
+
+  run-windows-commands:
+    run: pwd
+    shell: bash
+    name: string
+    run: echo "Hi windows"
