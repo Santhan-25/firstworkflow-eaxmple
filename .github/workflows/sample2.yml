@@ -10,7 +10,7 @@ jobs:
         id: Hello
         uses: actions/github-script@v6
         with:
-        who-greet: "Tavant Blr"
+          who-to-greet: "Tavant Blr"
 
         -name: Get output time
         run: echo "The time is ${{ steps.hello.outputs.time }}"
