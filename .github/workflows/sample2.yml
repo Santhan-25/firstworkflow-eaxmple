@@ -12,5 +12,5 @@ jobs:
         with:
           who-to-greet: "Tavant Blr"
 
-        -name: Get output time
+      - name: Get output time
         run: echo "The time is ${{ steps.hello.outputs.time }}"
