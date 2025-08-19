@@ -3,8 +3,8 @@ name : shell commands
 on: [push]
 
 jobs: 
-  runs-shell-commands:
-    run-on: ubuntu-latest
+  run-shell-commands:
+    runs-on: ubuntu-latest
     steps: 
       -name: string
       run: echo "Hello World"
